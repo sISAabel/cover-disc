@@ -1,0 +1,44 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+#square {
+  margin-left: 10px;
+  width: 500px;
+  height: 500px;
+  border-radius: 2px;
+  background-image: url("maincra.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 3px 9px 22px -8px rgba(0,0,0,0.75);
+}
+
+#bigCircle {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 9px 22px -8px rgba(0,0,0,0.75);
+}
+.midCircle {
+  background-image: url("hierba.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.smallCircle {
+  background-color: #44287f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
